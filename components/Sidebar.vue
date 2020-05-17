@@ -6,8 +6,9 @@
       <p class="border"></p>
     </li>
     <li v-for="region in this.regions" :key="region.region_id">
-      <a href="#">{{ region.name }}</a>
+      <router-link :to="`/region/` + region.region_id">{{ region.name }}</router-link>
     </li>
+    <router-view />
     <p class="border"></p>
     <li class="prevenstion">
       <a
