@@ -13,17 +13,17 @@
         </div>
       </li>
 
-      <li class="store">
+      <!-- <li class="store">
         <p class="prefecture">神奈川県</p>
         <div class="image-box">
-          <img src="../assets/tokyo_logo.jpg" width="100px" height="100px" />
+          <img src="../assets/kanagawa_logo.jpg" width="100px" height="100px" />
         </div>
         <div class="site-detail">
           <p class="site-name">新型コロナ対策感染症対策サイト</p>
           <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
           <p class="infected">本日の感染者数 20人</p>
         </div>
-      </li>
+      </li>-->
     </ul>
   </div>
 </template>
@@ -33,7 +33,7 @@ export default {};
 </script>
 
 <style scoped>
-.main {
+.main > ul {
   width: 1080px;
   height: 1000px;
   display: inline-block;

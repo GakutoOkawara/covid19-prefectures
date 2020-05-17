@@ -3,13 +3,30 @@
     <li class="sidenav-title">
       新型コロナ対策
       <br />都道府県別サイト一覧
+      <p class="border"></p>
     </li>
-    <li>
-      <a href="#">北海道</a>
-      <a href="#">東北</a>
-      <a href="#">関東</a>
-      <a href="#">中部</a>
+    <li v-for="region in this.regions" :key="region.region_id">
+      <a href="#">{{ region.name }}</a>
     </li>
+    <p class="border"></p>
+    <li class="prevenstion">
+      <a
+        href="https://www.kantei.go.jp/jp/headline/kansensho/coronavirus.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        新型コロナウイルスへの備え
+        <img src="../assets/another_tab.png" />
+      </a>
+    </li>
+    <p class="border"></p>
+    <li class="contact">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        お問い合わせ
+        <img src="../assets/another_tab.png" />
+      </a>
+    </li>
+    <p class="border"></p>
   </ul>
 </template>
 
@@ -34,8 +51,6 @@ export default {
         .then(res => {
           this.regions = res.data.regions;
           console.log(this.regions);
-          // this.regions = res.data.names;
-          // console.log(this.stations);
         });
     }
   }
@@ -53,6 +68,7 @@ export default {
   float: left;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
 }
+
 .sidenav li a {
   display: block;
   color: #707070;
@@ -67,5 +83,9 @@ export default {
   font-weight: bold;
   color: #707070;
   padding: 20px;
+}
+.border {
+  border-bottom: 1px solid #d9d9d9;
+  margin: 15px 20px;
 }
 </style>
