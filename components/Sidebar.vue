@@ -49,8 +49,6 @@ export default {
   width: 200px;
   height: 1000px;
   background-color: #ffffff;
-  position: relative;
-  overflow: auto;
   text-align: center;
   float: left;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
