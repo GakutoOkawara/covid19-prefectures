@@ -2,28 +2,28 @@
   <div class="main">
     <ul>
       <li class="store">
-        <!-- <p>東京都</p> -->
-        <!-- <div> -->
-
+        <p class="prefecture">東京都</p>
         <div class="image-box">
           <img src="../assets/tokyo_logo.jpg" width="100px" height="100px" />
         </div>
         <div class="site-detail">
-          <p>新型コロナ対策感染症対策サイト</p>
-          <a href="https://codepen.io/pen/">https://codepen.io/pen/</a>
+          <p class="site-name">新型コロナ対策感染症対策サイト</p>
+          <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
+          <p class="infected">本日の感染者数 20人</p>
         </div>
-
-        <!-- <p>本日の感染者数 20人</p> -->
-        <!-- </div> -->
       </li>
-      <!-- <li class="store">
-        <p>神奈川県</p>
-        <div>
-          <p>新型コロナ対策感染症対策サイト</p>
-          <a href="https://codepen.io/pen/">https://codepen.io/pen/</a>
-          <p>本日の感染者数 10人</p>
+
+      <li class="store">
+        <p class="prefecture">神奈川県</p>
+        <div class="image-box">
+          <img src="../assets/tokyo_logo.jpg" width="100px" height="100px" />
         </div>
-      </li>-->
+        <div class="site-detail">
+          <p class="site-name">新型コロナ対策感染症対策サイト</p>
+          <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
+          <p class="infected">本日の感染者数 20人</p>
+        </div>
+      </li>
     </ul>
   </div>
 </template>
@@ -43,19 +43,34 @@ export default {};
   width: 80%;
   height: 200px;
   list-style-type: none;
-  border: 1px solid;
   padding: 10px;
   margin: 20px auto;
   box-sizing: border-box;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+  background-color: #ffffff;
+}
+.prefecture {
+  color: #707070;
 }
 .image-box {
-  height: 100px;
-  width: 100px;
   box-sizing: border-box;
   float: left;
+  padding: 30px;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
 }
 .site-detail {
   float: left;
   width: 80%;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+}
+.site-name {
+  color: #707070;
+  padding: 20px;
+}
+.site-detail a {
+  margin: 20px;
+}
+.infected {
+  padding: 20px;
 }
 </style>
