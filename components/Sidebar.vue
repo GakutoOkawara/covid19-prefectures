@@ -5,8 +5,8 @@
       <br />都道府県別サイト一覧
       <p class="border"></p>
     </li>
-    <li v-for="region in this.regions" :key="region.region_id">
-      <router-link :to="`/region/` + region.region_id">{{ region.name }}</router-link>
+    <li v-for="region in this.regions" :key="region.id">
+      <router-link :to="`/region/` + region.id">{{ region.name }}</router-link>
     </li>
     <router-view />
     <p class="border"></p>
@@ -32,28 +32,13 @@
 </template>
 
 <script>
-import axios from "axios";
+import regions from "@/assets/json/region.json";
 
 export default {
   data() {
     return {
-      regions: []
+      regions: regions
     };
-  },
-  mounted() {
-    this.getStations();
-  },
-  methods: {
-    getStations() {
-      axios
-        .get("https://opening-hours.microcms.io/api/v1/region", {
-          headers: { "X-API-KEY": "820490cb-3a67-41e7-a58f-d5ecef520214" }
-        })
-        .then(res => {
-          this.regions = res.data.regions;
-          console.log(this.regions);
-        });
-    }
   }
 };
 </script>
