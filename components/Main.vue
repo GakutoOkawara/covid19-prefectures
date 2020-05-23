@@ -8,7 +8,9 @@
         </div>
         <div class="site-detail">
           <p class="site-name">新型コロナ対策感染症対策サイト</p>
-          <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
+          <a href="https://stopcovid19.metro.tokyo.lg.jp/"
+            >https://stopcovid19.metro.tokyo.lg.jp/</a
+          >
           <p class="infected">本日の感染者数 20人</p>
         </div>
       </li>
@@ -34,13 +36,13 @@ export default {};
 
 <style scoped>
 .main > ul {
-  width: 1080px;
-  height: 1000px;
+  width: 800px;
+  height: 650px;
   display: inline-block;
   box-sizing: border-box;
 }
 .store {
-  width: 80%;
+  width: 70%;
   height: 200px;
   list-style-type: none;
   padding: 10px;
@@ -60,7 +62,7 @@ export default {};
 }
 .site-detail {
   float: left;
-  width: 80%;
+  width: 60%;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
 }
 .site-name {
