@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "prefecture": "北海道",
+    "site_name": "新型コロナウイルスまとめサイト",
+    "site_url": "https://stopcovid19.hokkaido.dev/",
+    "image": "../img/hokkaido.png"
+  }
+]

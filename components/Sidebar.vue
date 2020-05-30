@@ -17,14 +17,14 @@
         rel="noopener noreferrer"
       >
         新型コロナウイルスへの備え
-        <img src="../assets/another_tab.png" />
+        <img src="../assets/img/another_tab.png" />
       </a>
     </li>
     <p class="border"></p>
     <li class="contact">
       <a href="#" target="_blank" rel="noopener noreferrer">
         お問い合わせ
-        <img src="../assets/another_tab.png" />
+        <img src="../assets/img/another_tab.png" />
       </a>
     </li>
     <p class="border"></p>
@@ -48,7 +48,7 @@ export default {
   margin: 0;
   padding: 0;
   width: 200px;
-  height: 650px;
+  height: 700px;
   background-color: #ffffff;
   text-align: center;
   float: left;
