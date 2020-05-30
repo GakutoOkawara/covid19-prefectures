@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
 .container {
-  height: 650px;
+  height: 700px;
   background-color: #fbfbfb;
 }
 </style>
