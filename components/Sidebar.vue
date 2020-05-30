@@ -48,7 +48,7 @@ export default {
   margin: 0;
   padding: 0;
   width: 200px;
-  height: 650px;
+  height: 700px;
   background-color: #ffffff;
   text-align: center;
   float: left;
