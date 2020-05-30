@@ -17,14 +17,14 @@
         rel="noopener noreferrer"
       >
         新型コロナウイルスへの備え
-        <img src="../assets/another_tab.png" />
+        <img src="../assets/img/another_tab.png" />
       </a>
     </li>
     <p class="border"></p>
     <li class="contact">
       <a href="#" target="_blank" rel="noopener noreferrer">
         お問い合わせ
-        <img src="../assets/another_tab.png" />
+        <img src="../assets/img/another_tab.png" />
       </a>
     </li>
     <p class="border"></p>

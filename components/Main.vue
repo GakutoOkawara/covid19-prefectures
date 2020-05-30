@@ -4,7 +4,7 @@
       <li class="store">
         <p class="prefecture">東京都</p>
         <div class="image-box">
-          <img src="../assets/tokyo_logo.jpg" width="100px" height="100px" />
+          <img src="../assets/img/tokyo.jpg" width="100px" height="100px" />
         </div>
         <div class="site-detail">
           <p class="site-name">新型コロナ対策感染症対策サイト</p>
