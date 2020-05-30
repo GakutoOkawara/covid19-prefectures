@@ -8,24 +8,9 @@
         </div>
         <div class="site-detail">
           <p class="site-name">新型コロナ対策感染症対策サイト</p>
-          <a href="https://stopcovid19.metro.tokyo.lg.jp/"
-            >https://stopcovid19.metro.tokyo.lg.jp/</a
-          >
-          <p class="infected">本日の感染者数 20人</p>
+          <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
         </div>
       </li>
-
-      <!-- <li class="store">
-        <p class="prefecture">神奈川県</p>
-        <div class="image-box">
-          <img src="../assets/kanagawa_logo.jpg" width="100px" height="100px" />
-        </div>
-        <div class="site-detail">
-          <p class="site-name">新型コロナ対策感染症対策サイト</p>
-          <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
-          <p class="infected">本日の感染者数 20人</p>
-        </div>
-      </li>-->
     </ul>
   </div>
 </template>
@@ -36,13 +21,13 @@ export default {};
 
 <style scoped>
 .main > ul {
-  width: 800px;
+  width: 700px;
   height: 650px;
   display: inline-block;
   box-sizing: border-box;
 }
 .store {
-  width: 70%;
+  width: 80%;
   height: 200px;
   list-style-type: none;
   padding: 10px;
