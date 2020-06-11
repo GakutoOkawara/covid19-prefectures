@@ -238,5 +238,37 @@
     "site_name": "新型コロナウイルス感染症対策サイト",
     "site_url": "https://stopcovid19.wakayama.jp/",
     "image": "wakayama.svg"
+  },
+  {
+    "id": 31,
+    "region_id": 7,
+    "prefecture": "鳥取県",
+    "site_name": "新型コロナウイルス感染症(COVID-19)特設サイト",
+    "site_url": "https://www.pref.tottori.lg.jp/corona-virus/",
+    "image": "tottori.gif"
+  },
+  {
+    "id": 32,
+    "region_id": 7,
+    "prefecture": "島根県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://shimane-covid19.com/",
+    "image": "shimane.png"
+  },
+  {
+    "id": 33,
+    "region_id": 7,
+    "prefecture": "岡山県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://okayama.stopcovid19.jp/",
+    "image": "okayama.svg"
+  },
+  {
+    "id": 34,
+    "region_id": 7,
+    "prefecture": "広島県",
+    "site_name": "新型コロナウイルス感染症 まとめサイト",
+    "site_url": "https://www.pref.hiroshima.lg.jp/site/2019-ncov/",
+    "image": "hiroshima.png"
   }
 ]
