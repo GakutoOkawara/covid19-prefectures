@@ -66,7 +66,7 @@ export default {
 }
 .site-name {
   color: #707070;
-  padding: 20px;
+  padding: 30px;
 }
 .site-detail a {
   margin: 20px;
