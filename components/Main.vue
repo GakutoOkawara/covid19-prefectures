@@ -4,7 +4,7 @@
       <li class="sites" v-for="site in sites" :key="site.id">
         <p class="prefecture">{{ site.prefecture }}</p>
         <div class="image-box">
-          <img :src="require('~/assets/img/' + site.image)" width="100px" height="100px" />
+          <img :src="require('~/assets/img/' + site.image)" width="150px" height="100px" />
         </div>
         <div class="site-detail">
           <p class="site-name">{{ site.site_name }}</p>
