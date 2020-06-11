@@ -302,5 +302,53 @@
     "site_name": "新型コロナウイルス感染症に関する情報",
     "site_url": "https://www.pref.kochi.lg.jp/soshiki/111301/info-COVID-19.html",
     "image": "kochi.png"
+  },
+  {
+    "id": 39,
+    "region_id": 9,
+    "prefecture": "山口県",
+    "site_name": "山口県公認 新型コロナウイルス対策サイト",
+    "site_url": "https://yamaguchi.stopcovid19.jp/",
+    "image": "yamaguchi.png"
+  },
+  {
+    "id": 40,
+    "region_id": 9,
+    "prefecture": "福岡県",
+    "site_name": "新型コロナウイルス感染症ポータルサイト",
+    "site_url": "https://fukuoka.stopcovid19.jp/",
+    "image": "fukuoka.png"
+  },
+  {
+    "id": 41,
+    "region_id": 9,
+    "prefecture": "佐賀県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://stopcovid19.code4saga.org/",
+    "image": "saga.svg"
+  },
+  {
+    "id": 42,
+    "region_id": 9,
+    "prefecture": "長崎県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://nagasaki.stopcovid19.jp/",
+    "image": "nagasaki.svg"
+  },
+  {
+    "id": 43,
+    "region_id": 9,
+    "prefecture": "熊本県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://kumamoto.stopcovid19.jp/",
+    "image": "kumamoto.png"
+  },
+  {
+    "id": 44,
+    "region_id": 9,
+    "prefecture": "大分県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://oita.stopcovid19.jp/",
+    "image": "oita.png"
   }
 ]
