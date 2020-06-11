@@ -40,7 +40,7 @@ export default {
   overflow: scroll;
 }
 .sites {
-  width: 90%;
+  width: 100%;
   height: 200px;
   list-style-type: none;
   padding: 10px;
@@ -66,10 +66,10 @@ export default {
 }
 .site-name {
   color: #707070;
-  padding: 20px;
+  padding: 10px 0px;
 }
 .site-detail a {
-  margin: 20px;
+  margin: 10px;
 }
 .infected {
   padding: 20px;
