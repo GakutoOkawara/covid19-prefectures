@@ -350,5 +350,21 @@
     "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
     "site_url": "https://oita.stopcovid19.jp/",
     "image": "oita.png"
+  },
+  {
+    "id": 45,
+    "region_id": 10,
+    "prefecture": "宮崎県",
+    "site_name": "新型コロナウイルス感染症対策特設サイト",
+    "site_url": "https://www.pref.miyazaki.lg.jp/covid-19/index.html",
+    "image": "miyazaki.png"
+  },
+  {
+    "id": 46,
+    "region_id": 10,
+    "prefecture": "鹿児島県",
+    "site_name": "新型コロナウイルスまとめサイト",
+    "site_url": "https://covid19.code4kagoshima.org/",
+    "image": "kagoshima.svg"
   }
 ]
