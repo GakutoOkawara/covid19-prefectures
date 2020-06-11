@@ -158,5 +158,37 @@
     "site_name": "福井県公認 新型コロナウイルス感染症対策サイト",
     "site_url": "https://covid19-fukui.com/",
     "image": "fukui.svg"
+  },
+  {
+    "id": 21,
+    "region_id": 5,
+    "prefecture": "岐阜県",
+    "site_name": "新型コロナウイルス感染症対策サイト(岐阜県公認)",
+    "site_url": "https://covid19-gifu.netlify.app/",
+    "image": "gifu.svg"
+  },
+  {
+    "id": 22,
+    "region_id": 5,
+    "prefecture": "静岡県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://stopcovid19.city.shizuoka.lg.jp/",
+    "image": "shizuoka.svg"
+  },
+  {
+    "id": 23,
+    "region_id": 5,
+    "prefecture": "愛知県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://stopcovid19.code4.nagoya/",
+    "image": "aichi.svg"
+  },
+  {
+    "id": 24,
+    "region_id": 5,
+    "prefecture": "三重県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://mie.stopcovid19.jp/",
+    "image": "mie.png"
   }
 ]
