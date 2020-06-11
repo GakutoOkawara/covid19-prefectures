@@ -366,5 +366,13 @@
     "site_name": "新型コロナウイルスまとめサイト",
     "site_url": "https://covid19.code4kagoshima.org/",
     "image": "kagoshima.svg"
+  },
+  {
+    "id": 47,
+    "region_id": 11,
+    "prefecture": "沖縄県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://okinawa.stopcovid19.jp/",
+    "image": "okinawa.svg"
   }
 ]
