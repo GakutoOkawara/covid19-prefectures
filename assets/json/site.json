@@ -54,5 +54,61 @@
     "site_name": "新型コロナウイルス感染症対策サイト",
     "site_url": "https://fukushima-covid19.web.app/",
     "image": "fukushima.svg"
+  },
+  {
+    "id": 8,
+    "region_id": 3,
+    "prefecture": "茨城県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://ibaraki.stopcovid19.jp/",
+    "image": "ibaraki.svg"
+  },
+  {
+    "id": 9,
+    "region_id": 3,
+    "prefecture": "栃木県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://covid19-tochigi.netlify.app/",
+    "image": "tochigi.png"
+  },
+  {
+    "id": 10,
+    "region_id": 3,
+    "prefecture": "群馬県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "http://stopcovid19.pref.gunma.jp/",
+    "image": "gunma.png"
+  },
+  {
+    "id": 11,
+    "region_id": 3,
+    "prefecture": "埼玉県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://saitama.stopcovid19.jp/",
+    "image": "saitama.svg"
+  },
+  {
+    "id": 12,
+    "region_id": 3,
+    "prefecture": "千葉県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://covid19.civictech.chiba.jp/",
+    "image": "chiba.svg"
+  },
+  {
+    "id": 13,
+    "region_id": 3,
+    "prefecture": "東京都",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://stopcovid19.metro.tokyo.lg.jp/",
+    "image": "tokyo.svg"
+  },
+  {
+    "id": 14,
+    "region_id": 3,
+    "prefecture": "神奈川県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://www.pref.kanagawa.jp/osirase/1369/",
+    "image": "kanagawa.png"
   }
 ]
