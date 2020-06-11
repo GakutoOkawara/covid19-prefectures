@@ -25,12 +25,8 @@ export default {
     };
   },
   methods: {
-    aaa() {
-      console.log(sites);
-    }
   },
   created() {
-    this.aaa();
   }
 };
 </script>
