@@ -19,9 +19,10 @@
 import sites from "@/assets/json/site.json";
 
 export default {
+  props: ["prefectures"],
   data() {
     return {
-      sites: sites
+      sites: this.prefectures ?? sites
     };
   }
 };
