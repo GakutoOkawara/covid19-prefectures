@@ -10,24 +10,12 @@
     </li>
     <router-view />
     <p class="border"></p>
-    <li class="prevenstion">
-      <a
-        href="https://www.kantei.go.jp/jp/headline/kansensho/coronavirus.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        新型コロナウイルスへの備え
-        <img src="../assets/img/another_tab.png" />
-      </a>
-    </li>
-    <p class="border"></p>
     <li class="contact">
       <a href="#" target="_blank" rel="noopener noreferrer">
         お問い合わせ
         <img src="../assets/img/another_tab.png" />
       </a>
     </li>
-    <p class="border"></p>
   </ul>
 </template>
 
@@ -58,7 +46,7 @@ export default {
 .sidenav li a {
   display: block;
   color: #707070;
-  padding: 8px 16px;
+  padding: 10px 16px;
   text-decoration: none;
 }
 .sidenav li a:hover {
@@ -68,7 +56,7 @@ export default {
 .sidenav-title {
   font-weight: bold;
   color: #707070;
-  padding: 20px;
+  padding: 20px 20px 0px;
 }
 .border {
   border-bottom: 1px solid #d9d9d9;
