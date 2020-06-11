@@ -270,5 +270,37 @@
     "site_name": "新型コロナウイルス感染症 まとめサイト",
     "site_url": "https://www.pref.hiroshima.lg.jp/site/2019-ncov/",
     "image": "hiroshima.png"
+  },
+  {
+    "id": 35,
+    "region_id": 8,
+    "prefecture": "徳島県",
+    "site_name": "新型コロナウイルス対策ポータルサイト",
+    "site_url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/",
+    "image": "tokushima.png"
+  },
+  {
+    "id": 36,
+    "region_id": 8,
+    "prefecture": "香川県",
+    "site_name": "新型コロナウイルス感染症非公式サイト",
+    "site_url": "https://kagawa.stopcovid19.jp/",
+    "image": "kagawa.svg"
+  },
+  {
+    "id": 37,
+    "region_id": 8,
+    "prefecture": "愛媛県",
+    "site_name": "新型コロナウイルス感染症対策サイト(愛媛県公式)",
+    "site_url": "https://ehime-covid19.com/",
+    "image": "ehime.svg"
+  },
+  {
+    "id": 38,
+    "region_id": 8,
+    "prefecture": "高知県",
+    "site_name": "新型コロナウイルス感染症に関する情報",
+    "site_url": "https://www.pref.kochi.lg.jp/soshiki/111301/info-COVID-19.html",
+    "image": "kochi.png"
   }
 ]
