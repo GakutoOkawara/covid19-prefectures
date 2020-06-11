@@ -5,7 +5,7 @@
 <script>
 export default {
   components: {
-    Sidebar: () => import("~/components/Sidebar")
+    Sidebar: () => import("~/components/SideMenu")
   }
 };
 </script>

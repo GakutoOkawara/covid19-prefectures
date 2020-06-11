@@ -32,34 +32,5 @@ export default {
 </script>
 
 <style scoped>
-.sidenav {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  height: 700px;
-  background-color: #ffffff;
-  text-align: center;
-  float: left;
-  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
-}
-
-.sidenav li a {
-  display: block;
-  color: #707070;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-.sidenav li a:hover {
-  background-color: #f1f1f1;
-  color: #707070;
-}
-.sidenav-title {
-  font-weight: bold;
-  color: #707070;
-  padding: 20px 20px 0px;
-}
-.border {
-  border-bottom: 1px solid #d9d9d9;
-  margin: 15px 20px;
-}
+@import '@/assets/css/SideMenu.css';
 </style>
