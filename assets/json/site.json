@@ -1,9 +1,58 @@
 [
   {
     "id": 1,
+    "region_id": 1,
     "prefecture": "北海道",
     "site_name": "新型コロナウイルスまとめサイト",
     "site_url": "https://stopcovid19.hokkaido.dev/",
-    "image": "../img/hokkaido.png"
+    "image": "hokkaido.svg"
+  },
+  {
+    "id": 2,
+    "region_id": 2,
+    "prefecture": "青森県",
+    "site_name": "新型コロナウイルス感染症対策総合サイト",
+    "site_url": "https://stopcovid19.pref.aomori.lg.jp/",
+    "image": "aomori.svg"
+  },
+  {
+    "id": 3,
+    "region_id": 2,
+    "prefecture": "岩手県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://iwate.stopcovid19.jp/",
+    "image": "iwate.svg"
+  },
+  {
+    "id": 4,
+    "region_id": 2,
+    "prefecture": "宮城県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://www.pref.miyagi.jp/site/covid-19/",
+    "image": "miyagi.png"
+  },
+  {
+    "id": 5,
+    "region_id": 2,
+    "prefecture": "秋田県",
+    "site_name": "新型コロナウイルス感染症について",
+    "site_url": "https://www.pref.akita.lg.jp/pages/archive/16317",
+    "image": "akita.svg"
+  },
+  {
+    "id": 6,
+    "region_id": 2,
+    "prefecture": "山形県",
+    "site_name": "新型コロナウイルス感染症に関連するポータルサイト",
+    "site_url": "https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html",
+    "image": "yamagata.png"
+  },
+  {
+    "id": 7,
+    "region_id": 2,
+    "prefecture": "福島県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://fukushima-covid19.web.app/",
+    "image": "fukushima.svg"
   }
 ]

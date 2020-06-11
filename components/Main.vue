@@ -1,14 +1,14 @@
 <template>
   <div class="main">
     <ul>
-      <li class="store">
-        <p class="prefecture">東京都</p>
+      <li class="sites" v-for="site in sites" :key="site.id">
+        <p class="prefecture">{{ site.prefecture }}</p>
         <div class="image-box">
-          <img src="../assets/img/tokyo.jpg" width="100px" height="100px" />
+          <img :src="require('~/assets/img/' + site.image)" width="100px" height="100px" />
         </div>
         <div class="site-detail">
-          <p class="site-name">新型コロナ対策感染症対策サイト</p>
-          <a href="https://stopcovid19.metro.tokyo.lg.jp/">https://stopcovid19.metro.tokyo.lg.jp/</a>
+          <p class="site-name">{{ site.site_name }}</p>
+          <a :href="site.site_url">{{ site.site_url }}</a>
         </div>
       </li>
     </ul>
@@ -16,18 +16,31 @@
 </template>
 
 <script>
-export default {};
+import sites from "@/assets/json/site.json";
+
+export default {
+  data() {
+    return {
+      sites: sites
+    };
+  },
+  methods: {
+  },
+  created() {
+  }
+};
 </script>
 
 <style scoped>
 .main > ul {
   width: 700px;
-  height: 650px;
+  height: 700px;
   display: inline-block;
   box-sizing: border-box;
+  overflow: scroll;
 }
-.store {
-  width: 80%;
+.sites {
+  width: 90%;
   height: 200px;
   list-style-type: none;
   padding: 10px;
@@ -35,6 +48,7 @@ export default {};
   box-sizing: border-box;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
   background-color: #ffffff;
+  word-wrap: break-word;
 }
 .prefecture {
   color: #707070;
