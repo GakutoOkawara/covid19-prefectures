@@ -190,5 +190,53 @@
     "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
     "site_url": "https://mie.stopcovid19.jp/",
     "image": "mie.png"
+  },
+  {
+    "id": 25,
+    "region_id": 6,
+    "prefecture": "滋賀県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://stopcovid19.pref.shiga.jp/",
+    "image": "shiga.svg"
+  },
+  {
+    "id": 26,
+    "region_id": 6,
+    "prefecture": "京都府",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://stop-covid19-kyoto.netlify.app/",
+    "image": "kyoto.svg"
+  },
+  {
+    "id": 27,
+    "region_id": 6,
+    "prefecture": "大阪府",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://covid19-osaka.info/",
+    "image": "osaka.png"
+  },
+  {
+    "id": 28,
+    "region_id": 6,
+    "prefecture": "兵庫県",
+    "site_name": "新型コロナウイルスまとめサイト",
+    "site_url": "https://stop-covid19-hyogo.org/",
+    "image": "hyogo.svg"
+  },
+  {
+    "id": 29,
+    "region_id": 6,
+    "prefecture": "奈良県",
+    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "site_url": "https://stopcovid19.code4nara.org/",
+    "image": "nara.png"
+  },
+  {
+    "id": 30,
+    "region_id": 6,
+    "prefecture": "和歌山県",
+    "site_name": "新型コロナウイルス感染症対策サイト",
+    "site_url": "https://stopcovid19.wakayama.jp/",
+    "image": "wakayama.svg"
   }
 ]
