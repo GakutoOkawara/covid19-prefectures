@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Sidebar></Sidebar>
+    <SideMenu></SideMenu>
     <Main></Main>
   </div>
 </template>
@@ -8,7 +8,7 @@
 <script>
 export default {
   components: {
-    Sidebar: () => import("~/components/Sidebar"),
+    SideMenu: () => import("~/components/SideMenu"),
     Main: () => import("~/components/Main")
   }
 };
