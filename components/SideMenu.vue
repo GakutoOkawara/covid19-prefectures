@@ -11,10 +11,9 @@
     <router-view />
     <p class="border"></p>
     <li class="contact">
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <router-link to="/contact">
         お問い合わせ
-        <img src="../assets/img/another_tab.png" />
-      </a>
+      </router-link>
     </li>
   </ul>
 </template>
