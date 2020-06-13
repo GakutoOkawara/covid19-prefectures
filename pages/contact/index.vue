@@ -3,7 +3,7 @@
     <h1 class="section-header">お問い合わせ</h1>
     <div class="contact-wrapper">
 
-    <form class="form-horizontal" name="" role="form" method="post" action="contact.php">
+    <form class="form-horizontal" method="post" action="/contact/finish" data-netlify="true">
 
       <div class="form-group">
         <div class="col-sm-12">
