@@ -4,6 +4,7 @@
     <div class="contact-wrapper">
       <client-only>
         <form class="form-horizontal" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <div class="form-group">
           <div class="col-sm-12">
             <input type="text" class="form-control" id="name" placeholder="お名前" name="name" value="">
