@@ -4,7 +4,7 @@
       <li class="site" v-for="site in sites" :key="site.id">
         <p class="prefecture">{{ site.prefecture }}</p>
         <div class="image-box">
-          <img :src="require('@/assets/img/' + site.image)" width="150px" height="100px" />
+          <img :src="require('@/assets/img/' + site.image)" />
         </div>
         <div class="site-detail">
           <p class="site-name">{{ site.name }}</p>
@@ -29,6 +29,10 @@ export default {
 </script>
 
 <style scoped>
+.main {
+    word-wrap: break-word;
+}
+
 .main > ul {
   width: 700px;
   height: 700px;
@@ -45,7 +49,6 @@ export default {
   box-sizing: border-box;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
   background-color: #ffffff;
-  word-wrap: break-word;
 }
 .prefecture {
   color: #707070;
@@ -56,6 +59,11 @@ export default {
   padding: 30px;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
 }
+.image-box > img {
+  height: 100px;
+  width: 150px;
+}
+
 .site-detail {
   float: left;
   width: 60%;
@@ -67,5 +75,29 @@ export default {
 }
 .site-detail a {
   margin: 10px;
+}
+
+/* 480px〜599px：SP横
+------------------------------ */
+@media screen and (min-width:320px) and (max-width:749px) {
+  .image-box {
+    display: none;
+    }
+    .site-detail {
+      width: 100%
+    }
+  .main > ul {
+    width: 220px;
+  }
+}
+
+@media screen and (min-width:750px) and (max-width:899px) {
+  .main > ul {
+    width: 550px;
+  }
+  .image-box > img {
+  height: 100px;
+  width: 100px;
+  }
 }
 </style>
