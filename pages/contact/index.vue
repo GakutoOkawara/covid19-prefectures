@@ -2,8 +2,8 @@
   <section id="contact">
     <h1 class="section-header">お問い合わせ</h1>
     <div class="contact-wrapper">
-
-    <form class="form-horizontal" method="post" action="/contact/finish" data-netlify="true">
+      <client-only>
+        <form class="form-horizontal" method="post" action="/contact/finish" data-netlify="true">
 
       <div class="form-group">
         <div class="col-sm-12">
@@ -22,6 +22,7 @@
       <button class="back-button" type="button" onclick="history.back()"><span>戻る</span></button>
 
     </form>
+      </client-only>
   </div>
   </section>
 </template>
