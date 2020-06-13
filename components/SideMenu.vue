@@ -31,5 +31,5 @@ export default {
 </script>
 
 <style scoped>
-@import '~/assets/css/sideMenu.css';
+@import '~assets/css/sideMenu.css';
 </style>

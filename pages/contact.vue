@@ -27,5 +27,5 @@
 </template>
 
 <style scoped>
-@import '@/assets/css/contact.css';
+@import "~assets/css/contact.css";
 </style>
