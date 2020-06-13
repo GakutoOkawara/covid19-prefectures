@@ -8,8 +8,8 @@
 <script>
 export default {
   components: {
-    SideMenu: () => import("~/components/SideMenu"),
-    Main: () => import("~/components/Main")
+    SideMenu: () => import("@/components/SideMenu"),
+    Main: () => import("@/components/Main")
   }
 };
 </script>
