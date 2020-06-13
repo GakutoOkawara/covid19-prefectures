@@ -31,10 +31,11 @@ export default {
 <style scoped>
 .main {
     word-wrap: break-word;
+    width: 1000px;
 }
 
 .main > ul {
-  width: 700px;
+  width: 800px;
   height: 700px;
   display: inline-block;
   box-sizing: border-box;
@@ -77,23 +78,9 @@ export default {
   margin: 10px;
 }
 
-/* 480px〜599px：SP横
------------------------------- */
-@media screen and (min-width:320px) and (max-width:749px) {
-  .image-box {
-    display: none;
-    }
-    .site-detail {
-      width: 100%
-    }
+@media screen and (min-width:0px) and (max-width:650px) {
   .main > ul {
-    width: 220px;
-  }
-}
-
-@media screen and (min-width:750px) and (max-width:899px) {
-  .main > ul {
-    width: 550px;
+    width: 650px;
   }
   .image-box > img {
   height: 100px;
