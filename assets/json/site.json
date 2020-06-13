@@ -3,376 +3,376 @@
     "id": 1,
     "region_id": 1,
     "prefecture": "北海道",
-    "site_name": "新型コロナウイルスまとめサイト",
-    "site_url": "https://stopcovid19.hokkaido.dev/",
+    "name": "北海道 新型コロナウイルスまとめサイト",
+    "url": "https://stopcovid19.hokkaido.dev/",
     "image": "hokkaido.svg"
   },
   {
     "id": 2,
     "region_id": 2,
     "prefecture": "青森県",
-    "site_name": "新型コロナウイルス感染症対策総合サイト",
-    "site_url": "https://stopcovid19.pref.aomori.lg.jp/",
+    "name": "青森県 新型コロナウイルス感染症対策総合サイト",
+    "url": "https://stopcovid19.pref.aomori.lg.jp/",
     "image": "aomori.svg"
   },
   {
     "id": 3,
     "region_id": 2,
     "prefecture": "岩手県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://iwate.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://iwate.stopcovid19.jp/",
     "image": "iwate.svg"
   },
   {
     "id": 4,
     "region_id": 2,
     "prefecture": "宮城県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://www.pref.miyagi.jp/site/covid-19/",
-    "image": "miyagi.png"
+    "name": "非公式新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-miyagi.netlify.app/",
+    "image": "miyagi.svg"
   },
   {
     "id": 5,
     "region_id": 2,
     "prefecture": "秋田県",
-    "site_name": "新型コロナウイルス感染症について",
-    "site_url": "https://www.pref.akita.lg.jp/pages/archive/16317",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-akita.netlify.app/",
     "image": "akita.svg"
   },
   {
     "id": 6,
     "region_id": 2,
     "prefecture": "山形県",
-    "site_name": "新型コロナウイルス感染症に関連するポータルサイト",
-    "site_url": "https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html",
-    "image": "yamagata.png"
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://stopcovid19-yamagata.netlify.app/",
+    "image": "yamagata.svg"
   },
   {
     "id": 7,
     "region_id": 2,
     "prefecture": "福島県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://fukushima-covid19.web.app/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://fukushima-covid19.web.app/",
     "image": "fukushima.svg"
   },
   {
     "id": 8,
     "region_id": 3,
     "prefecture": "茨城県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://ibaraki.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://ibaraki.stopcovid19.jp/",
     "image": "ibaraki.svg"
   },
   {
     "id": 9,
     "region_id": 3,
     "prefecture": "栃木県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://covid19-tochigi.netlify.app/",
+    "name": "栃木県 新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-tochigi.netlify.app/",
     "image": "tochigi.png"
   },
   {
     "id": 10,
     "region_id": 3,
     "prefecture": "群馬県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "http://stopcovid19.pref.gunma.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "http://stopcovid19.pref.gunma.jp/",
     "image": "gunma.png"
   },
   {
     "id": 11,
     "region_id": 3,
     "prefecture": "埼玉県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://saitama.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://saitama.stopcovid19.jp/",
     "image": "saitama.svg"
   },
   {
     "id": 12,
     "region_id": 3,
     "prefecture": "千葉県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://covid19.civictech.chiba.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19.civictech.chiba.jp/",
     "image": "chiba.svg"
   },
   {
     "id": 13,
     "region_id": 3,
     "prefecture": "東京都",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.metro.tokyo.lg.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.metro.tokyo.lg.jp/",
     "image": "tokyo.svg"
   },
   {
     "id": 14,
     "region_id": 3,
     "prefecture": "神奈川県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://www.pref.kanagawa.jp/osirase/1369/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://www.pref.kanagawa.jp/osirase/1369/",
     "image": "kanagawa.png"
   },
   {
     "id": 15,
     "region_id": 3,
     "prefecture": "山梨県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.yamanashi.dev/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.yamanashi.dev/",
     "image": "yamanashi.svg"
   },
   {
     "id": 16,
     "region_id": 3,
     "prefecture": "長野県",
-    "site_name": "非公式 新型コロナウイルス感染症対策サイト",
-    "site_url": "https://nagano.stopcovid19.jp/",
+    "name": "長野県 非公式新型コロナウイルス感染症対策サイト",
+    "url": "https://nagano.stopcovid19.jp/",
     "image": "nagano.svg"
   },
   {
     "id": 17,
     "region_id": 4,
     "prefecture": "新潟県",
-    "site_name": "(非公式)新型コロナウイルス感染症対策サイト",
-    "site_url": "https://niigata.stopcovid19.jp/",
+    "name": "(非公式)新型コロナウイルス感染症対策サイト",
+    "url": "https://niigata.stopcovid19.jp/",
     "image": "niigata.png"
   },
   {
     "id": 18,
     "region_id": 4,
     "prefecture": "富山県",
-    "site_name": "新型コロナウイルス感染症対策サイト(富山県公認)",
-    "site_url": "https://stopcovid19-toyama.netlify.app/",
+    "name": "新型コロナウイルス感染症対策サイト(富山県公認)",
+    "url": "https://stopcovid19-toyama.netlify.app/",
     "image": "toyama.png"
   },
   {
     "id": 19,
     "region_id": 4,
     "prefecture": "石川県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.pref.ishikawa.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.pref.ishikawa.jp/",
     "image": "ishikawa.svg"
   },
   {
     "id": 20,
     "region_id": 4,
     "prefecture": "福井県",
-    "site_name": "福井県公認 新型コロナウイルス感染症対策サイト",
-    "site_url": "https://covid19-fukui.com/",
+    "name": "福井県公認 新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-fukui.com/",
     "image": "fukui.svg"
   },
   {
     "id": 21,
     "region_id": 5,
     "prefecture": "岐阜県",
-    "site_name": "新型コロナウイルス感染症対策サイト(岐阜県公認)",
-    "site_url": "https://covid19-gifu.netlify.app/",
+    "name": "新型コロナウイルス感染症対策サイト(岐阜県公認)",
+    "url": "https://covid19-gifu.netlify.app/",
     "image": "gifu.svg"
   },
   {
     "id": 22,
     "region_id": 5,
     "prefecture": "静岡県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.city.shizuoka.lg.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.city.shizuoka.lg.jp/",
     "image": "shizuoka.svg"
   },
   {
     "id": 23,
     "region_id": 5,
     "prefecture": "愛知県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://stopcovid19.code4.nagoya/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://stopcovid19.code4.nagoya/",
     "image": "aichi.svg"
   },
   {
     "id": 24,
     "region_id": 5,
     "prefecture": "三重県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://mie.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://mie.stopcovid19.jp/",
     "image": "mie.png"
   },
   {
     "id": 25,
     "region_id": 6,
     "prefecture": "滋賀県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.pref.shiga.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.pref.shiga.jp/",
     "image": "shiga.svg"
   },
   {
     "id": 26,
     "region_id": 6,
     "prefecture": "京都府",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://stop-covid19-kyoto.netlify.app/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://stop-covid19-kyoto.netlify.app/",
     "image": "kyoto.svg"
   },
   {
     "id": 27,
     "region_id": 6,
     "prefecture": "大阪府",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://covid19-osaka.info/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-osaka.info/",
     "image": "osaka.png"
   },
   {
     "id": 28,
     "region_id": 6,
     "prefecture": "兵庫県",
-    "site_name": "新型コロナウイルスまとめサイト",
-    "site_url": "https://stop-covid19-hyogo.org/",
+    "name": "新型コロナウイルスまとめサイト",
+    "url": "https://stop-covid19-hyogo.org/",
     "image": "hyogo.svg"
   },
   {
     "id": 29,
     "region_id": 6,
     "prefecture": "奈良県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://stopcovid19.code4nara.org/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://stopcovid19.code4nara.org/",
     "image": "nara.png"
   },
   {
     "id": 30,
     "region_id": 6,
     "prefecture": "和歌山県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.wakayama.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.wakayama.jp/",
     "image": "wakayama.svg"
   },
   {
     "id": 31,
     "region_id": 7,
     "prefecture": "鳥取県",
-    "site_name": "新型コロナウイルス感染症(COVID-19)特設サイト",
-    "site_url": "https://www.pref.tottori.lg.jp/corona-virus/",
-    "image": "tottori.gif"
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://tottori-covid19.netlify.app/",
+    "image": "tottori.svg"
   },
   {
     "id": 32,
     "region_id": 7,
     "prefecture": "島根県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://shimane-covid19.com/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://shimane-covid19.com/",
     "image": "shimane.png"
   },
   {
     "id": 33,
     "region_id": 7,
     "prefecture": "岡山県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://okayama.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://okayama.stopcovid19.jp/",
     "image": "okayama.svg"
   },
   {
     "id": 34,
     "region_id": 7,
     "prefecture": "広島県",
-    "site_name": "新型コロナウイルス感染症 まとめサイト",
-    "site_url": "https://www.pref.hiroshima.lg.jp/site/2019-ncov/",
+    "name": "【非公式】新型コロナウイルス感染症情報サイト",
+    "url": "https://covid19-hiroshima.netlify.app/",
     "image": "hiroshima.png"
   },
   {
     "id": 35,
     "region_id": 8,
     "prefecture": "徳島県",
-    "site_name": "新型コロナウイルス対策ポータルサイト",
-    "site_url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kansensho/5035331/",
+    "name": "徳島県新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-tokushima.netlify.app/",
     "image": "tokushima.png"
   },
   {
     "id": 36,
     "region_id": 8,
     "prefecture": "香川県",
-    "site_name": "新型コロナウイルス感染症非公式サイト",
-    "site_url": "https://kagawa.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症非公式サイト",
+    "url": "https://kagawa.stopcovid19.jp/",
     "image": "kagawa.svg"
   },
   {
     "id": 37,
     "region_id": 8,
     "prefecture": "愛媛県",
-    "site_name": "新型コロナウイルス感染症対策サイト(愛媛県公式)",
-    "site_url": "https://ehime-covid19.com/",
+    "name": "新型コロナウイルス感染症対策サイト(愛媛県公式)",
+    "url": "https://ehime-covid19.com/",
     "image": "ehime.svg"
   },
   {
     "id": 38,
     "region_id": 8,
     "prefecture": "高知県",
-    "site_name": "新型コロナウイルス感染症に関する情報",
-    "site_url": "https://www.pref.kochi.lg.jp/soshiki/111301/info-COVID-19.html",
-    "image": "kochi.png"
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://stopcovid19.code4kochi.com/",
+    "image": "kochi.svg"
   },
   {
     "id": 39,
     "region_id": 9,
     "prefecture": "山口県",
-    "site_name": "山口県公認 新型コロナウイルス対策サイト",
-    "site_url": "https://yamaguchi.stopcovid19.jp/",
+    "name": "山口県公認 新型コロナウイルス対策サイト",
+    "url": "https://yamaguchi.stopcovid19.jp/",
     "image": "yamaguchi.png"
   },
   {
     "id": 40,
     "region_id": 9,
     "prefecture": "福岡県",
-    "site_name": "新型コロナウイルス感染症ポータルサイト",
-    "site_url": "https://fukuoka.stopcovid19.jp/",
+    "name": "福岡県 新型コロナウイルス感染症ポータルサイト",
+    "url": "https://fukuoka.stopcovid19.jp/",
     "image": "fukuoka.png"
   },
   {
     "id": 41,
     "region_id": 9,
     "prefecture": "佐賀県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://stopcovid19.code4saga.org/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://stopcovid19.code4saga.org/",
     "image": "saga.svg"
   },
   {
     "id": 42,
     "region_id": 9,
     "prefecture": "長崎県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://nagasaki.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://nagasaki.stopcovid19.jp/",
     "image": "nagasaki.svg"
   },
   {
     "id": 43,
     "region_id": 9,
     "prefecture": "熊本県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://kumamoto.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://kumamoto.stopcovid19.jp/",
     "image": "kumamoto.png"
   },
   {
     "id": 44,
     "region_id": 9,
     "prefecture": "大分県",
-    "site_name": "新型コロナウイルス感染症対策サイト(非公式)",
-    "site_url": "https://oita.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト(非公式)",
+    "url": "https://oita.stopcovid19.jp/",
     "image": "oita.png"
   },
   {
     "id": 45,
     "region_id": 10,
     "prefecture": "宮崎県",
-    "site_name": "新型コロナウイルス感染症対策特設サイト",
-    "site_url": "https://www.pref.miyazaki.lg.jp/covid-19/index.html",
-    "image": "miyazaki.png"
+    "name": "宮崎県 新型コロナウイルス感染症対策サイト",
+    "url": "https://covid19-miyazaki.netlify.app/",
+    "image": "miyazaki.svg"
   },
   {
     "id": 46,
     "region_id": 10,
     "prefecture": "鹿児島県",
-    "site_name": "新型コロナウイルスまとめサイト",
-    "site_url": "https://covid19.code4kagoshima.org/",
+    "name": "鹿児島県 新型コロナウイルスまとめサイト",
+    "url": "https://covid19.code4kagoshima.org/",
     "image": "kagoshima.svg"
   },
   {
     "id": 47,
     "region_id": 11,
     "prefecture": "沖縄県",
-    "site_name": "新型コロナウイルス感染症対策サイト",
-    "site_url": "https://okinawa.stopcovid19.jp/",
+    "name": "新型コロナウイルス感染症対策サイト",
+    "url": "https://okinawa.stopcovid19.jp/",
     "image": "okinawa.svg"
   }
 ]
