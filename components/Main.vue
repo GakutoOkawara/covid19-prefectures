@@ -7,8 +7,8 @@
           <img :src="require('@/assets/img/' + site.image)" width="150px" height="100px" />
         </div>
         <div class="site-detail">
-          <p class="site-name">{{ site.site_name }}</p>
-          <a :href="site.site_url">{{ site.site_url }}</a>
+          <p class="site-name">{{ site.name }}</p>
+          <a :href="site.url">{{ site.url }}</a>
         </div>
       </li>
     </ul>
@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style scoped>
-@import '@/assets/css/main.css';
+@import '~/assets/css/main.css';
 </style>
