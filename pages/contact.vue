@@ -27,5 +27,77 @@
 </template>
 
 <style scoped>
-@import "~assets/css/contact.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 30px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #707070;
+  margin-bottom: 25px;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  max-width: 800px;
+}
+
+.form-horizontal {
+  margin: 0 auto;
+  max-width: 400px;
+  font-weight: 400px;
+}
+
+.form-control, textarea, .send-button {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  color: #707070;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  cursor: pointer;
+  display: block;
+  padding: 0.6em 0.88em;
+  background-color: #43BFA0;
+  color: #FFFFFF;
+  border: none;
+  border-color: none;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.08);
+}
+
+.back-button {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: block;
+  padding: 0.6em 0.88em;
+  background-position: right bottom;
+  color: #020202;
+  border: none;
+  border-color: none;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.08);
+}
+
+.send-text {
+  margin-top: 10px;
+  font: 300 14px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
 </style>
