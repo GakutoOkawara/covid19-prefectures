@@ -6,7 +6,6 @@
         <form class="form-horizontal"
               name="contact"
               method="post"
-              action="/contact/finish"
               data-netlify-recaptcha="true"
               data-netlify="true"
               >
