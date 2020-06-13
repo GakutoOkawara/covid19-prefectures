@@ -1,4 +1,4 @@
-# covid_website_list
+# covid19-prefectures
 
 > My exceptional Nuxt.js project
 
