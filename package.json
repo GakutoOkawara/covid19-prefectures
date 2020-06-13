@@ -1,5 +1,5 @@
 {
-  "name": "covid_website_list",
+  "name": "covid19-prefectures",
   "version": "1.0.0",
   "description": "My exceptional Nuxt.js project",
   "author": "GakutoOkawara",
@@ -14,6 +14,5 @@
     "axios": "^0.19.2",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0"
-  },
-  "devDependencies": {}
+  }
 }
