@@ -3,7 +3,13 @@
     <h1 class="section-header">お問い合わせ</h1>
     <div class="contact-wrapper">
       <client-only>
-        <form class="form-horizontal" name="contact" method="post" action="/contact/finish" data-netlify="true">
+        <form class="form-horizontal"
+              name="contact"
+              method="post"
+              action="/contact/finish"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+              >
           <input type="hidden" name="form-name" value="contact" />
           <div class="form-group">
           <div class="col-sm-12">
