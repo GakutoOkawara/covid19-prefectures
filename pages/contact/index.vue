@@ -7,10 +7,11 @@
               name="contact"
               method="post"
               action="/contact/finish"
-              data-netlify-recaptcha="true"
               data-netlify="true"
+              data-netlify-honeypot="bot-field"
               >
           <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <div class="form-group">
           <div class="col-sm-12">
             <input type="text" class="form-control" id="name" placeholder="お名前" name="name">
@@ -22,7 +23,6 @@
           </div>
           </div>
           <textarea class="form-control" rows="10" placeholder="メッセージ" name="message"></textarea>
-          <div data-netlify-recaptcha="true"></div>
           <button class="send-button" id="submit" type="submit" value="SEND">
             <span class="send-text">送信</span>
           </button>
