@@ -1,8 +1,7 @@
 <template>
   <ul class="sidenav">
     <li class="sidenav-title">
-      新型コロナウイルス
-      <br />都道府県別サイト一覧
+      <router-link to="/">新型コロナウイルス感染症<br>都道府県別サイト一覧</router-link>
       <p class="border"></p>
     </li>
     <li class="regions" v-for="region in this.regions" :key="region.id">
@@ -14,6 +13,7 @@
       <router-link to="/contact">
         お問い合わせ
       </router-link>
+      <router-view />
     </li>
   </ul>
 </template>
@@ -31,6 +31,9 @@ export default {
 </script>
 
 <style scoped>
+.nuxt-link-active {
+  width: 100%;
+}
 .sidenav {
   margin: 0;
   padding: 0;
@@ -49,14 +52,15 @@ export default {
   padding: 10px 16px;
   text-decoration: none;
 }
-.sidenav li a:hover {
+.regions:hover {
   background-color: #f1f1f1;
   color: #707070;
 }
 .sidenav-title {
   font-weight: bold;
   color: #707070;
-  padding: 20px 20px 0px;
+  padding: 10px 10px 0px;
+  font-size: 12px;
 }
 .border {
   border-bottom: 1px solid #d9d9d9;
