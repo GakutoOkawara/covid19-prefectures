@@ -54,11 +54,14 @@
 46. 鹿児島県 鹿児島県新型コロナウイルスまとめサイト https://covid19.code4kagoshima.org/
 47. 沖縄県 新型コロナウイルス感染症対策サイト https://okinawa.stopcovid19.jp/
 
-
+## ローカル環境構築手順
 ```bash
-# install dependencies
-$ npm install
+# dockerコンテナのビルドと立ち上げ
+$ docker-compose up -d --build
 
-# serve with hot reload at localhost:3000
+# コンテナ内に入る
+$ docker exec -it covid19-prefectrues_web_1 ash
+
+# ローカルサーバの起動(コンテナ立ち上げ時にコマンドが実行されるように設定しているが、動かない場合に)
 $ npm run dev
 ```
