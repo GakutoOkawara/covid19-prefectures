@@ -62,6 +62,9 @@ $ docker-compose up -d --build
 # コンテナ内に入る
 $ docker exec -it covid19-prefectrues_web_1 ash
 
-# ローカルサーバの起動(コンテナ立ち上げ時にコマンドが実行されるように設定しているが、動かない場合に)
+# ローカルサーバの起動(コンテナ立ち上げ時にコマンドが実行されるように設定しているが、動かない場合)
 $ npm run dev
+
+# 動作確認
+http://localhost:3000/
 ```
