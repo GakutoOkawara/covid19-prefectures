@@ -8,13 +8,14 @@
       <router-link :to="`/region/` + region.id">{{ region.name }}</router-link>
     </li>
     <router-view />
-    <p class="border"></p>
+    <!-- TODO: netlify_formsにメールが届かないため、後ほど実装 -->
+    <!-- <p class="border"></p>
     <li class="contact">
       <router-link to="/contact">
         お問い合わせ
       </router-link>
       <router-view />
-    </li>
+    </li> -->
   </ul>
 </template>
 
