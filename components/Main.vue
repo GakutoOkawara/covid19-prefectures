@@ -8,7 +8,9 @@
         </div>
         <div class="site-detail">
           <p class="site-name">{{ site.name }}</p>
-          <a :href="site.url">{{ site.url }}</a>
+          <a :href="site.url" target="_blank" rel="noopener">{{ site.url }}
+            <font-awesome-icon icon="external-link-alt"  style="font-size: 10px"/>
+          </a>
         </div>
       </li>
     </ul>
